@@ -1,3 +1,8 @@
+/* eslint-disable no-console */
+const minimist = require('minimist');
+
 module.exports = () => {
-  console.log("wlecome to argp");
-}
+  const args = minimist(process.argv.slice(2));
+  console.log(process.argv);
+  console.log(args);
+};

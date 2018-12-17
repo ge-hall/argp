@@ -1,5 +1,5 @@
 {
-  "name": "@aquajax/argp",
+  "name": "argp-cli",
   "version": "1.0.0",
   "description": "cli arg explorer",
   "main": "index.js",
@@ -13,6 +13,14 @@
   "author": "Andrew Ge-Hall",
   "license": "ISC",
   "devDependencies": {
-    "eslint": "^5.10.0"
+    "eslint": "^5.10.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0"
+  },
+  "bin": {
+    "argp-cli": "bin/argp"
+  },
+  "dependencies": {
+    "minimist": "^1.2.0"
   }
 }
