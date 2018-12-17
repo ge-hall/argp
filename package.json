@@ -11,5 +11,8 @@
     "args"
   ],
   "author": "Andrew Ge-Hall",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^5.10.0"
+  }
 }
